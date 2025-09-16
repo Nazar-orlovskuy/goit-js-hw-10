@@ -1,5 +1,8 @@
-// import flatpickr from "https://cdn.jsdelivr.net/npm/flatpickr/dist/esm/index.js";
-// import iziToast from "https://cdn.jsdelivr.net/npm/izitoast/dist/js/iziToast.min.js";
+import flatpickr from "flatpickr";
+import "flatpickr/dist/flatpickr.min.css";
+
+import iziToast from "izitoast";
+import "izitoast/dist/css/iziToast.min.css";
 
 let userSelectedDate = null;
 let timerId = null;
